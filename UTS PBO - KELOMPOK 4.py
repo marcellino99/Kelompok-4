@@ -37,7 +37,7 @@ class Hotel:
         else:
             raise RoomNotAvailableException("Kamar Tidak Tersedia!")
  
-#clas kamar
+#clas Kamar
 class Kamar:
     def __init__(self, nomor, tipe, lantai, tarif, fasilitas, biaya_fasilitas):
         self.nomor = nomor
