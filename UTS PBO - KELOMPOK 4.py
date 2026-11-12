@@ -1,5 +1,5 @@
 #clas Hotel
-class Hotel:
+class Hotel: 
     def __init__(self, nama):
         self.nama = nama
         self.daftar_kamar = []
